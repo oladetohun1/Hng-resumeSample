@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario&display=swap');
+*
+{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+body{
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(255, 255, 255) ;
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px black;
+}          
+.left_side{
+    position: relative;
+    background-color: rgb(76, 0, 255);
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1px solid rgba(255, 255, 255);
+}
+.imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow:  hidden;
+}
+
+.imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profiletext h2{
+    color: white;
+    font-size: 1.35em;
+    margin-top: 30px;
+    margin-right: 2.9px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 550;
+    line-height: 35px;
+}
+.profiletext h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+.contactinfo{
+    padding-top: 30px;
+}
+.title{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-bottom: 35px;
+}
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 1px 0;
+    cursor: pointer;
+}
+
+.contactinfo ul{
+    position: relative;
+}
+.icon{
+    display: inline-block;
+    padding-right: 17px;
+    width: 3px;
+    font-size: 18px;
+    color: rgb(27, 206, 206);
+    
+}
+.text{
+    color: rgba(255, 255, 255);
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 50px;
+
+}
+
+/* a{
+    display: inline-block;
+    width: 10px;
+    font-size: 20px;
+    color: rgb(76, 0, 255); */
+/* } */
+.Education{
+    margin-top: 25px;
+}
+.Education li{
+    margin-bottom:15px;
+}
+.Education h5{
+    color: rgb(27, 206, 206);
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:rgb(212, 198, 198);
+    display: block;
+    margin-top: 5px;
+}
+.percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(18, 18, 66); 
+}
+.Education h4{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.right_side{
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+.about{
+    margin-bottom:30px;
+}
+.about:last-child{
+    margin-bottom:0;
+}
+.title2{
+    color: rgb(76, 0, 255)  ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    
+}
+p{
+    color: black;
+    line-height: 40px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.Yearcomp{
+    min-width: 150px;
+}
+.Yearcomp h5{
+    text-transform: uppercase;
+    color:rgb(18, 18, 66);
+    font-weight: 600;
+}
+.fell{
+    text-transform: uppercase;
+    color:rgb(18, 18, 66);
+    font-size: 16px;
+}
+.box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills.box h4{
+    text-transform: uppercase;
+    color: rgb(18, 18, 66);
+    font-weight: 500;
+}
+img{
+    position:relative;
+    top: 0;
+    left: 0;
+    width:35%;
+    height:80px;
+}
